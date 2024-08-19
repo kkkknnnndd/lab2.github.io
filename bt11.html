@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    *:hover { outline: 5px solid rgb(255,0,0); }
+
+    #pagecontent {
+        margin: 0 auto;
+        max-width: 1045px;
+        min-width: 480px;
+        width: 100%;
+    }
+
+    #pageheader, #pagefooter {
+        max-width: 1020px;
+        min-width: 480px;
+        width: 100%;
+    }
+
+    #sectioncontent1, #asidecontent1 {
+        box-sizing: border-box;
+        padding: 5px;
+        background-color: rgba(153,153,153,.25);
+        margin: 5px;
+    }
+
+    #sectioncontent1 {
+        float: left;
+        max-width: 600px;
+        min-width: 400px;
+        width: 65%;
+        border: 1px solid rgb(255,255,255);
+    }
+
+    #asidecontent1 {
+        float: right;
+        max-width: 400px;
+        width: 30%;
+        border: 1px solid rgb(255,255,255);
+    }
+
+    #globalnav {
+        clear: both;
+        text-align: center;
+        background-color: rgba(153,153,153,.25);
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .articlecontent, .asidecontent {
+        margin-bottom: 10px;
+    }
+
+    h1, h2, h3 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header, .footer, .nav {
+        background-color: rgba(153,153,153,.25);
+        padding: 5px;
+        margin: 5px;
+        border: 1px solid rgb(255,255,255);
+    }
+
+    .pageheader img {
+        width: 100%;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+</style>
+</head>
+<body>
+<div id="pagecontent">
+
+    <div id="pageheader" class="header pageheader">
+        <h1 class="sitename"><a href="/" rel="home" title="Home">HTML5 Structure</a></h1>
+        <img src="c:\Users\Admin\Pictures\logo-ueh-inkythuatso-01-08-15-22-11.jpg" alt="School of Business Information Technology">
+    </div>
+
+    <div id="globalnav" class="nav globalnav">
+        <p>Chương trình Đại học | CT Liên thông Đại học | Chương trình Sau đại học | Chương trình quốc tế</p>
+    </div>
+
+    <div id="sectioncontent1" class="sectioncontent">
+        <div class="header sectionheader">
+            <h2>Chương trình Đại học</h2>
+        </div>
+
+        <div class="articlecontent">
+            <h3>Hệ thống hoạch định nguồn lực doanh nghiệp (ERP)</h3>
+            <p>Nhu cầu xã hội Hoạch định các nguồn lực một cách hiệu quả đã nhóm lên một điểm mấu chốt trong việc phát triển các cách nhìn mới và mô tả mọi cách doanh nghiệp phải đối mặt, nhất là trong thời kỳ hội nhập kinh tế quốc tế...</p>
+            <img src="c:\Users\Admin\Pictures\ERP-770x385.jpg" alt="ERP">
+        </div>
+    </div>
+
+    <div id="asidecontent1" class="asidecontent">
+        <div class="header sectionheader">
+            <h2>Liên kết</h2>
+        </div>
+
+        <div class="asidecontent">
+            <h3>Hệ thống thông tin kinh doanh</h3>
+            <p>Nhu cầu xã hội hiện nay đang chứng kiến sự bùng nổ trong các hệ thống thông tin kinh doanh...</p>
+            <img src="c:\Users\Admin\Pictures\mis-770x385.jpg" alt="Business Information Systems">
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
+    <div id="pagefooter" class="footer pagefooter">
+        <p>Page Footer</p>
+    </div>
+</div>
+</body>
+</html>
